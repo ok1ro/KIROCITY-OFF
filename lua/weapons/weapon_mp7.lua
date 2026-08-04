@@ -1,10 +1,7 @@
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
 SWEP.Base = "homigrad_base"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
-SWEP.PrintName = "HK SMG"
+SWEP.PrintName = "HK MP7"
 SWEP.Author = "Heckler & Koch"
 SWEP.Instructions = "Submachine gun chambered in 4.6x30 mm\n\nRate of fire 950 rounds per minute"
 SWEP.Category = "Weapons - Machine-Pistols"
@@ -12,9 +9,9 @@ SWEP.Slot = 2
 SWEP.SlotPos = 10
 SWEP.ViewModel = ""
 SWEP.WorldModel = "models/weapons/w_smg_mp5.mdl"
-SWEP.WorldModelFake = "models/weapons/c_iiopnsmg1.mdl"
+SWEP.WorldModelFake = "models/weapons/tfa_ins2/c_mp7.mdl"
 
-SWEP.FakePos = Vector(-10.5, 4.05, 6.77)
+SWEP.FakePos = Vector(-9.5, 3.05, 5.77)
 SWEP.FakeAng = Angle(0, 0, 0)
 SWEP.AttachmentPos = Vector(-0.3,-0.22,-0.8)
 SWEP.AttachmentAng = Angle(0,0,90)
@@ -83,9 +80,9 @@ SWEP.FakeReloadEvents = {
 }
 
 SWEP.AnimList = {
-	["idle"] = "idle",
-	["reload"] = "reload",
-	["reload_empty"] = "reload",
+	["idle"] = "base_idle",
+	["reload"] = "base_reload",
+	["reload_empty"] = "base_reload_empty",
 }
 
 SWEP.WepSelectIcon2 = Material("vgui/hud/tfa_ins2_mp7.png")
@@ -142,7 +139,7 @@ SWEP.availableAttachments = {
 	}
 }
 
-SWEP.ReloadTime = 3.5
+SWEP.ReloadTime = 4.5
 SWEP.ReloadSoundes = {
 	"none",
 	"none",
@@ -162,7 +159,7 @@ SWEP.ReloadSoundes = {
 SWEP.PPSMuzzleEffect = "muzzleflash_FAMAS" -- shared in sh_effects.lua
 
 SWEP.HoldType = "rpg"
-SWEP.ZoomPos = Vector(-3, -0.3458, 5.1211)
+SWEP.ZoomPos = Vector(-3, 0.2258, 5.0211)
 SWEP.RHandPos = Vector(1, -1, 0)
 SWEP.LHandPos = false
 SWEP.Spray = {}
@@ -305,6 +302,3 @@ SWEP.InspectAnimWepAng = {
 	Angle(0,0,0),
 	Angle(0,0,0)
 }
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
