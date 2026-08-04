@@ -1,6 +1,3 @@
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
 SWEP.Base = "homigrad_base"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
@@ -12,9 +9,9 @@ SWEP.Slot = 2
 SWEP.SlotPos = 10
 SWEP.ViewModel = ""
 SWEP.WorldModel = "models/weapons/w_irifle.mdl"
-SWEP.WorldModelFake = "models/weapons/c_iiopnirifle.mdl"
+SWEP.WorldModelFake = "models/weapons/arccw/c_irifle.mdl"
 
-SWEP.FakePos = Vector(24, -5.9, 8.3)
+SWEP.FakePos = Vector(26, -5.9, 8.8)
 SWEP.FakeAng = Angle(0, 180, 0)
 SWEP.AttachmentPos = Vector(0,0,0)
 SWEP.AttachmentAng = Angle(0,0,0)
@@ -142,7 +139,7 @@ SWEP.holsteredPos = Vector(3, 8, -6)
 SWEP.holsteredAng = Angle(210, 0, 180)
 
 SWEP.HoldType = "rpg"
-SWEP.ZoomPos = Vector(-3, 3.967, 7.4546)
+SWEP.ZoomPos = Vector(-3, 1.767, 6.4546)
 SWEP.Spray = {}
 for i = 1, 30 do
 	SWEP.Spray[i] = Angle(-0.06 - math.cos(i) * 0.03, math.cos(i * i) * 0.04, 0) * 2
@@ -278,6 +275,3 @@ SWEP.InspectAnimWepAng = {
 	Angle(0,0,0),
 	Angle(0,0,0)
 }
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
