@@ -1,10 +1,7 @@
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
 SWEP.Base = "homigrad_base"
 SWEP.Spawnable = true
 SWEP.AdminOnly = false
-SWEP.PrintName = "HK USP Match"
+SWEP.PrintName = "HK USP"
 SWEP.Author = "Heckler & Koch"
 SWEP.Instructions = "Pistol chambered in 9x19 mm"
 SWEP.Category = "Weapons - Pistols"
@@ -12,9 +9,9 @@ SWEP.Slot = 2
 SWEP.SlotPos = 10
 SWEP.ViewModel = ""
 SWEP.WorldModel = "models/weapons/w_pist_usp.mdl"
-SWEP.WorldModelFake = "models/weapons/tfa_mmod/c_pistol.mdl"
+SWEP.WorldModelFake = "models/weapons/tfa_ins2/c_usp_match.mdl"
 
-SWEP.FakePos = Vector(-27, 4., 4.22)
+SWEP.FakePos = Vector(-17, 2., 3.22)
 SWEP.FakeAng = Angle(0, 0, 0)
 SWEP.AttachmentPos = Vector(0,0,-0.2)
 SWEP.AttachmentAng = Angle(0,0,90)
@@ -23,9 +20,9 @@ SWEP.MagIndex = 53
 
 SWEP.FakeVPShouldUseHand = true
 SWEP.AnimList = {
-	["idle"] = "idle01",
-	["reload"] = "reload",
-	["reload_empty"] = "reload",
+	["idle"] = "base_idle",
+	["reload"] = "base_reload",
+	["reload_empty"] = "base_reload_empty",
 }
 
 SWEP.FakeReloadSounds = {
@@ -185,7 +182,7 @@ SWEP.ReloadSoundes = {
 SWEP.DeploySnd = {"homigrad/weapons/draw_pistol.mp3", 55, 100, 110}
 SWEP.HolsterSnd = {"homigrad/weapons/holster_pistol.mp3", 55, 100, 110}
 SWEP.HoldType = "revolver"
-SWEP.ZoomPos = Vector(-9, -1, 2.1627)
+SWEP.ZoomPos = Vector(-9, -0.0138, 2.8327)
 
 SWEP.RHandPos = Vector(0, -0.5, -1)
 SWEP.LHandPos = false
@@ -332,6 +329,3 @@ SWEP.InspectAnimWepAng = {
 	Angle(0,0,0),
 	Angle(0,0,0)
 }
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
---GUN BY OK1RO DONT DELETE THIS СООБЩЕНИЕ ПЖ 
